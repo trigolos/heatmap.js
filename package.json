@@ -1,14 +1,10 @@
 {
-  "name": "heatmap.js",
-  "version": "2.0.5",
-  "description": "Dynamic JavaScript Heatmaps for the Web",
-  "homepage": "https://www.patrick-wied.at/static/heatmapjs/",
-  "author": {
-    "name": "Patrick Wied",
-    "email": "heatmapjs@patrick-wied.at",
-    "url": "https://www.patrick-wied.at/"
-  },
+  "name": "@trigolos/heatmap.js",
+  "version": "0.0.1",
+  "description": "Forked from [Woracheth/heatmap.js](https://github.com/Woracheth/heatmap.js)",
+  "author": "Patrick Wied",
   "main": "build/heatmap.js",
+  "unpkg": "dist/index.js",
   "devDependencies": {
     "grunt": ">= 0.4.1",
     "coffee-script": ">= 1.6.3",
@@ -21,10 +17,7 @@
     "heatmap",
     "heatmaps",
     "heat map",
-    "heat maps",
-    "googlemaps heatmap",
-    "leaflet heatmap",
-    "leaflet"
+    "heat maps"
   ],
   "files": [
     "build",

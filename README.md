@@ -1,5 +1,10 @@
 # heatmap.js
-Dynamic Heatmaps for the Web. 
+Dynamic Heatmaps for the Web.
+
+Forked from [Woracheth/heatmap.js](https://github.com/Woracheth/heatmap.js). 
+This version fix heat transfer between overlapping heat sources. See more details [here](https://github.com/pa7/heatmap.js/pull/90).
+
+Original version - https://github.com/pa7/heatmap.js
 
 [<img src="http://www.patrick-wied.at/static/heatmapjs/assets/img/heatmapjs-examples-docs-banner.jpg" width="100%">](http://www.patrick-wied.at/static/heatmapjs/?utm_source=gh "View the heatmap.js website with usage examples, showcases, best practises, plugins ( googlemaps heatmap, leaflet) and more.")
 
