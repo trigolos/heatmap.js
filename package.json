@@ -1,9 +1,11 @@
 {
   "name": "@trigolos/heatmap.js",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Forked from [Woracheth/heatmap.js](https://github.com/Woracheth/heatmap.js)",
   "author": "Patrick Wied",
   "main": "build/heatmap.js",
+  "types": "index.d.ts",
+  "typings": "./index.d.ts",
   "unpkg": "dist/index.js",
   "scripts": {
     "start": "grunt",
@@ -30,7 +32,8 @@
     "docs",
     "package.json",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "index.d.ts"
   ],
   "buildFiles": [
     "src/config.js",
