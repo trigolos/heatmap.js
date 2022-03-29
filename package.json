@@ -1,17 +1,21 @@
 {
   "name": "@trigolos/heatmap.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Forked from [Woracheth/heatmap.js](https://github.com/Woracheth/heatmap.js)",
   "author": "Patrick Wied",
   "main": "build/heatmap.js",
   "unpkg": "dist/index.js",
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt build"
+  },
   "devDependencies": {
-    "grunt": ">= 0.4.1",
-    "coffee-script": ">= 1.6.3",
-    "grunt-contrib-uglify": ">= 0.2.0",
-    "grunt-contrib-concat": ">= 0.1.3",
-    "grunt-contrib-watch": "0.2.0-rc7",
-    "grunt-contrib-jshint": ">= 0.3.0"
+    "grunt": ">= 1.4.1",
+    "coffee-script": ">= 1.12.7",
+    "grunt-contrib-uglify": ">= 5.1.0",
+    "grunt-contrib-concat": ">= 2.0.0",
+    "grunt-contrib-watch": ">= 1.1.0",
+    "grunt-contrib-jshint": ">= 3.2.0"
   },
   "keywords": [
     "heatmap",
